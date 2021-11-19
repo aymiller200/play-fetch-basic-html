@@ -1,0 +1,17 @@
+{
+  "entries": [
+    "./components/dog-error/dog-error.js",
+    "./components/dog-list/dog-list.js",
+    "./components/dog-pic-modal/dog-pic-modal.js",
+    "./components/spinner/spinner.js",
+    "./components/title/title.js",
+    "./favorites/favorites.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.10.0",
+    "typescriptVersion": "4.3.5"
+  },
+  "collections": [],
+  "bundles": []
+}

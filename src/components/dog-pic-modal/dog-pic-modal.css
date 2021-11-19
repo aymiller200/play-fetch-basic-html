@@ -1,0 +1,111 @@
+:host{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+#hidden{
+ display: none;
+}
+
+#dog-pic-container{
+  position: fixed;
+  top: 0;
+  left: 25;
+  margin: auto;
+  margin-top: 5%;
+  z-index: 1000;
+  opacity: 1;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.63);
+  flex-direction: column; 
+  transition: all 0.3s ease-out;
+}
+
+#dog-pic-container .breed-name {
+  padding: 0.5rem;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+#dog-image {
+  display: inline-block;
+  object-fit: contain;
+  margin: 0 10px;
+  height: fit-content;
+  width: 50%;
+}
+
+@media(min-width: 768px){
+  #dog-image {
+    width: 450px;
+    height: 400px;
+  }
+}
+
+#favs{
+  display: flex;
+  align-content: flex-end;
+  border-radius: 0.5rem;
+  font-size: x-large;
+  background: rgb(103, 160, 82);
+  border: 2px solid rgb(103, 160, 82);
+  color: white;
+  margin:  1rem 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(80, 127, 163, 0.89);
+  
+}
+#reload:hover,
+#favs:hover {
+  background: white;
+  color: rgb(103, 160, 82);
+  transition: 0.3s ease-out;
+}
+
+#favs:disabled{
+  background: #ccc;
+  border-color: #ccc;
+  color: rgba(0, 0, 0, 0.513);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+#btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+#fav-saved{
+
+  border-radius: 0.5rem;
+  font-size: x-large;
+  margin:  1rem 0.5rem;
+  background: rgb(80, 127, 163);
+  border: 2px solid rgb(80, 127, 163);
+  color: white;
+  cursor: pointer;
+}
+
+#fav-saved:hover{
+  box-shadow: 0 2px 8px rgba(103, 160, 82, 0.89);
+  transition: 0.3s ease-out;
+}
+
+#reload{
+  border-radius: 0.5rem;
+  font-size: x-large;
+  background: rgb(103, 160, 82);
+  border: 2px solid rgb(103, 160, 82);
+  color: white;
+  margin:  1rem 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(80, 127, 163, 0.89);
+}
+
+

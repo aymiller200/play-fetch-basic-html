@@ -1,0 +1,17 @@
+:host{
+  font-family: 'Jost', sans-serif !important;
+}
+
+h2{
+  font-family: 'Jost', sans-serif !important;
+  margin: auto;
+  text-align: center;
+  word-wrap: none;
+  font-size: xx-large;
+  color: rgb(103, 160, 82);
+  text-decoration: underline;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(80, 127, 163, 0.952);
+  
+}

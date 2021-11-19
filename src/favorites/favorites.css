@@ -1,0 +1,108 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+#fav-container {
+  position: fixed;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 2%;
+  z-index: 1000;
+  background: white;
+  border-radius: 3px;
+  height: 80%;
+  width: 80%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.63);
+  transition: all 0.3s ease-out;
+  overflow-y: scroll;
+}
+
+#saved-fav-img {
+  display: flex;
+  object-fit: cover;
+  padding: 0.2rem;
+  margin-top: 3rem;
+  margin: 0.5rem;
+  height: 250px;
+  width: 250px;
+}
+
+@media (min-width: 768px) {
+  #saved-fav-img {
+    width: 450px;
+    height: 400px;
+  }
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  margin: auto;
+}
+
+#fav-container-btn {
+  position: fixed;
+  font-size: xx-large;
+  right: 0;
+  top: 0;
+  margin: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border: 2px solid rgb(80, 127, 163);
+  background: rgb(80, 127, 163);
+  border: 2px solid rgb(80, 127, 163);
+  color: white;
+  box-shadow: 0 2px 8px rgba(80, 127, 163, 0.89);
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+#fav-container-btn:hover {
+  background: white;
+  color: rgb(80, 127, 163);
+  transition: 0.3s ease-out;
+}
+
+#fav-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}
+
+#img-container {
+  box-shadow: 0 2px 8px rgba(80, 127, 163, 0.479);
+  height: max-content;
+  margin: 10px;
+}
+
+#clear-fav {
+  display: flex;
+  font-size: large;
+  margin: 0.5rem;
+  float: right;
+  color: white;
+  background: rgba(103, 160, 82, 0.794);
+  border: 1px solid rgb(103, 160, 82);
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+#clear-fav:hover {
+  box-shadow: 0 2px 8px rgba(80, 127, 163, 0.698);
+  transition: 0.2s ease-out;
+}

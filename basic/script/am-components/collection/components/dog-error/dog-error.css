@@ -1,0 +1,13 @@
+#error {
+  width: 50%;
+  word-wrap: break-word;
+  padding: 8px;
+  margin-top: 0px;
+  margin: auto;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background-color: rgba(250, 128, 114, 0.514);
+  font-family: 'Jost', sans-serif;
+  font-size: medium;
+}
